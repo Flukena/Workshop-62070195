@@ -13,7 +13,7 @@ services:
     container_name: app
     image: app
     restart: always
-    build: .
+    build: ./
     ports: ['3002:3002']
   storage:
     image: openzipkin/zipkin-mysql
